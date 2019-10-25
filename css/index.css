@@ -245,23 +245,9 @@ nav a:hover {
   border-bottom: 2px dashed grey;
   padding: 5% 5%;
 }
-@media (max-width: 500px) {
-  header {
-    display: flex;
-    flex-direction: column;
-  }
-  header h1 {
-    text-align: center;
-    padding-bottom: 3%;
-  }
-}
-@media (max-width: 500px) {
-  .content-section {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    width: 500px;
-  }
+.home .welcome {
+  padding-top: 3%;
+  border-bottom: 2px dashed grey;
 }
 .btn {
   background-color: #0E828C;
